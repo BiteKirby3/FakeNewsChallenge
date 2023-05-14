@@ -1,4 +1,4 @@
-#NLP Project 2023
+# NLP Project 2023
 
 ## FNC-I: STANCE DETECTION.
 Our topic is [Fake News Challenge Stage 1 (FNC-I)](http://www.fakenewschallenge.org/): Stance Detection Task.
@@ -12,7 +12,7 @@ Our [report](https://github.com/BiteKirby3/FakeNewsChallenge/blob/main/report.pd
 We explored different approaches throughout this project. To check our code, go to the [code](https://github.com/BiteKirby3/FakeNewsChallenge/tree/main/code) folder.
 
 ## Bonus
-Our finest model, achieved through the process of fine-tuning RoBERTa, stands out as a significant advancement compared to the winning solution of the FNC-I challenge. You can readily employ our fine-tuned RoBERTa model to perform accurate and reliable stance detection on news articles. The utilization of our model for news stance inference is straightforward and can be implemented as follows: 
+Our finest model, achieved through the process of fine-tuning RoBERTa, stands out as a significant advancement compared to the winning solution of the FNC-I challenge. You can readily employ our fine-tuned RoBERTa model to perform accurate and reliable stance detection on news articles as retraining RoBERTa for the same purpose is not quite environmentally friendly. The utilization of our model for news stance inference is straightforward and can be implemented as follows: 
 
 1. Install the Hugging Face's [transformers](https://huggingface.co/docs/transformers/v4.17.0/en/index) library
 ```pip install transformers```
